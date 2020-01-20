@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 import pandas as pd
 import numpy as np
 import sklearn
@@ -36,18 +30,7 @@ linear.fit(x_train, y_train)
 acc = linear.score(x_test, y_test)
 print("Accuracy:",acc)
 
-
-# In[6]:
-
-
 predictions = linear.predict(x_test)
 
 for x in range(len(predictions)):
     print(predictions[x], x_test[x], y_test[x])
-
-
-# In[ ]:
-
-
-
-
