@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import sklearn
 from sklearn import datasets
 from sklearn import svm
@@ -31,10 +25,3 @@ y_pred = clf.predict(x_test)
 acc = metrics.accuracy_score(y_test, y_pred)
 
 print(acc)
-
-
-# In[ ]:
-
-
-
-
